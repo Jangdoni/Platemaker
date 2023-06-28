@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <title>Laptop Border Website</title>
+  <style>
+    .laptop-border {
+      border: 15px solid #ccc;
+      border-top-width: 80px;
+      border-radius: 20px;
+      height: 600px;
+      width: 900px;
+      margin: 50px auto;
+      position: relative;
+    }
+
+    .laptop-screen {
+      position: absolute;
+      top: 20px;
+      left: 15px;
+      right: 15px;
+      bottom: 15px;
+      overflow: hidden;
+    }
+
+    .laptop-screen img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .button-container {
+      position: absolute;
+      bottom: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      justify-content: space-between;
+      width: 200px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="laptop-border">
+      <div class="laptop-screen">
+        <img src="gambar.jpg" alt="Gambar" width="1920" height="1080">
+      </div>
+      <div class="button-container">
+        <button type="button" class="btn btn-primary">Button 1</button>
+        <button type="button" class="btn btn-primary">Button 2</button>
+        <button type="button" class="btn btn-primary">Button 3</button>
+      </div>
+    </div>
+  </div>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
+```
+
+Pastikan mengganti `"gambar.jpg"` dengan URL atau path gambar yang ingin Anda tampilkan di dalam laptop. Juga, Anda dapat menyesuaikan properti seperti warna dan ukuran pada kode CSS untuk mencapai tampilan yang diinginkan.
